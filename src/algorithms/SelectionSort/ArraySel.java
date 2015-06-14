@@ -22,7 +22,7 @@ public class ArraySel {
     }
 
     /***
-     * O(N) speed, the same as Bubble Sort, but still faster because it has fewer swaps
+     * O(N^2) speed, the same as Bubble Sort, but still faster because it has fewer swaps
      */
     public void selectionSort(){
         int out, in, min;
